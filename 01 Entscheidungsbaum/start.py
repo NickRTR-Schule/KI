@@ -1,7 +1,7 @@
 import numpy as np
 
-from func import gini
+from func import *
 
 weekend = np.genfromtxt("weekend.csv", delimiter=",", dtype=str)
 
-print(gini(weekend))
+print("Bester Wurzelknoten des Entscheidungsbaumes:", bestGini(weekend))
