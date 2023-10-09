@@ -66,4 +66,4 @@ def bestGini(input):
 
     best = ginis.index(min(ginis))
 
-    return best, input[0][best]
+    return best, input[0][best], ginis[best]
